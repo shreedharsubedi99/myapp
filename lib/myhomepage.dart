@@ -20,8 +20,17 @@ class Myhomepage extends StatelessWidget {
       ),
       body: Container(
         child: Column(
-          children: [
-      
+          children: [SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(children: [CircleAvatar(radius: 30,backgroundColor:Colors.red,backgroundImage:AssetImage('assets/images/screenshot1.png')),SizedBox(width: 10,),
+            CircleAvatar(radius: 40,backgroundColor:Colors.red,backgroundImage:AssetImage('assets/images/screenshot1.png')),SizedBox(width: 10,),
+            CircleAvatar(radius: 40,backgroundColor:Colors.red,backgroundImage:AssetImage('assets/images/screenshot1.png')),SizedBox(width: 10,),
+            CircleAvatar(radius: 40,backgroundColor:Colors.red,backgroundImage:AssetImage('assets/images/screenshot1.png')),SizedBox(width: 10,),
+            CircleAvatar(radius: 40,backgroundColor:Colors.red,backgroundImage:AssetImage('assets/images/screenshot1.png')),SizedBox(width: 10,),
+            CircleAvatar(radius: 40,backgroundColor:Colors.red,backgroundImage:AssetImage('assets/images/screenshot1.png')),SizedBox(width: 10,),
+            CircleAvatar(radius: 40,backgroundColor:Colors.red,backgroundImage:AssetImage('assets/images/screenshot1.png')),SizedBox(width: 10,),
+            CircleAvatar(radius: 40,backgroundColor:Colors.red,backgroundImage:AssetImage('assets/images/screenshot1.png')),SizedBox(width: 10,)],),
+          )
       
       
       
