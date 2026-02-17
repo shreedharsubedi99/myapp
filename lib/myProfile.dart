@@ -18,6 +18,12 @@ class Myprofile extends StatelessWidget {
         actions: [Icon(Icons.notification_add, color: Colors.white)],
       ),
       drawer: Drawer(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
+        child: Icon(Icons.add),
+      ),
     );
   }
 }
