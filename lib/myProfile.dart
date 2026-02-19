@@ -47,7 +47,7 @@ class Myprofile extends StatelessWidget {
             child: Column(
               children: [
                 Text(
-                  'Name',
+                  'Name: Shreedhar Subedi',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 18,
@@ -57,7 +57,7 @@ class Myprofile extends StatelessWidget {
                 ),
                 SizedBox(height: 10),
                 Text(
-                  'Email',
+                  'Email: shreedharsubedi99@gmail.com',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 18,
@@ -67,7 +67,7 @@ class Myprofile extends StatelessWidget {
                 ),
                 SizedBox(height: 10),
                 Text(
-                  'Address',
+                  'Address: Tilottama-9,shankarpur',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 18,
@@ -78,6 +78,22 @@ class Myprofile extends StatelessWidget {
               ],
             ),
           ),
+
+          Container(
+            margin: EdgeInsets.only(left: 11),
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: Text(
+                "friends",
+                style: TextStyle(
+                  backgroundColor: Colors.blue,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+          ),
+          SizedBox(width: 10),
+          Container(margin: EdgeInsets.symmetric(horizontal: 12, vertical: 12)),
         ],
       ),
       drawer: Drawer(),

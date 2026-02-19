@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/myProfile.dart';
 import 'package:myapp/myhomepage.dart';
+import 'package:myapp/user_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Myprofile(),
+      home: HomePage(),
     );
   }
 }
